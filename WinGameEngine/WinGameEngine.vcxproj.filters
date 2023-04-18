@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{aaaca01a-f679-4fcd-8d8f-3334c1ed9c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{c47b7006-e6ea-4949-baec-c9868a2ba0c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\01.Header">
+      <UniqueIdentifier>{ca5f46b7-dad5-489c-9d17-7b68dd317af0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02.Core">
+      <UniqueIdentifier>{ac6712d8-b7ed-4729-ba3c-e859a7b10598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager">
+      <UniqueIdentifier>{80ce3254-f264-4e2f-9837-7820858ca04a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06.Resource">
+      <UniqueIdentifier>{8373e94a-0893-4fb8-9f70-35251efd2917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06.Resource\01.Texture">
+      <UniqueIdentifier>{0dcf733c-6053-495c-bcc1-1aa9a66efa97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\ResMgr">
+      <UniqueIdentifier>{5cc250d7-c6e3-42f4-9bcd-77a01bf42a30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\PathMgr">
+      <UniqueIdentifier>{db1dbb9a-2791-436b-bd2a-56f35cb12b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\TimeMgr">
+      <UniqueIdentifier>{c3c131d1-770f-4f3f-83f7-bf2d05cc628b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\KeyMgr">
+      <UniqueIdentifier>{5342969e-2ce5-45fd-8b36-1b705ddcd0d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\Camera">
+      <UniqueIdentifier>{53dfbc83-0d76-413b-8c0c-65b2f2d385eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object">
+      <UniqueIdentifier>{a70b6886-324c-430a-86c2-14302dfbdf18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07.Component">
+      <UniqueIdentifier>{fc00b2dd-e4d6-4bdd-99ea-55c7f31f162c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08.Module">
+      <UniqueIdentifier>{3869e57b-dee8-4023-89ac-9643914bb313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\SceneMgr">
+      <UniqueIdentifier>{2044c147-24ea-459c-af36-e73547b23c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05.Scene">
+      <UniqueIdentifier>{0a537baa-2eb1-417b-a773-6e3fbd48c366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07.Component\01.Animator">
+      <UniqueIdentifier>{0bb853fc-ceb6-400c-bafb-a336fbb7ffa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07.Component\01.Animator\Animation">
+      <UniqueIdentifier>{09090468-086c-4038-a270-e133038e89e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\EventMgr">
+      <UniqueIdentifier>{56b2f4e6-4874-49b3-9b7a-5f3fbd4e92f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI">
+      <UniqueIdentifier>{354c7415-a869-4f3b-99d5-e8076e6e26df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\UIMgr">
+      <UniqueIdentifier>{d59437f4-ba4e-4fbc-9385-4a661e67cd30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\CollisionMgr">
+      <UniqueIdentifier>{36e455ff-a57d-4edd-aa2d-2e4d2c8c0363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\09.Factory">
+      <UniqueIdentifier>{21bcbec6-538c-452a-beb7-e56cfd250183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08.Module\AI">
+      <UniqueIdentifier>{0d664847-722b-40e9-a4ae-a245b8ec9abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08.Module\State">
+      <UniqueIdentifier>{243bf307-6c14-4fe7-9caf-127b127cd9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05.Scene\SceneList">
+      <UniqueIdentifier>{76135bc2-7ef9-4d57-91f1-8a36b9bf483f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Objects">
+      <UniqueIdentifier>{4db2c72f-0b5e-4c93-b85a-09bc45bf7e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\UI\UI_Module">
+      <UniqueIdentifier>{98a87487-3a27-4092-ae8c-5115f2b4e6cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07.Component\03.Command">
+      <UniqueIdentifier>{9d41fd9f-7466-42e7-ac5b-a527758c1793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\09.Factory\01.UIFactory">
+      <UniqueIdentifier>{ee7ac429-ad45-428c-8231-2ce54aa01bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\10.DataModel">
+      <UniqueIdentifier>{334d6e66-3ab0-4610-be88-7933fe96f20a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07.Component\03.Command\01.Test">
+      <UniqueIdentifier>{9787194c-9a09-4510-bdb2-a23bbb735a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object\Objects\01.Default">
+      <UniqueIdentifier>{03c2cde7-a98c-4c00-b32f-a721ce95dfe1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="WinGameEngine.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Engine\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Engine\02.Core</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Engine\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Engine\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ResMgr.h">
+      <Filter>Engine\03.Manager\ResMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Res.h">
+      <Filter>Engine\06.Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Engine\06.Resource\01.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Engine\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PathMgr.h">
+      <Filter>Engine\03.Manager\PathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>Engine\03.Manager\TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>Engine\03.Manager\KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Engine\03.Manager\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Engine\04.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Engine\07.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectGDI.h">
+      <Filter>Engine\08.Module</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Engine\07.Component\01.Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Engine\07.Component\01.Animator\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>Engine\03.Manager\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="EventMgr.h">
+      <Filter>Engine\03.Manager\EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMgr.h">
+      <Filter>Engine\03.Manager\UIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Engine\04.Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>Engine\03.Manager\CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Engine\05.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Test.h">
+      <Filter>Engine\05.Scene\SceneList</Filter>
+    </ClInclude>
+    <ClInclude Include="CRectangle.h">
+      <Filter>Engine\04.Object\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DivUI.h">
+      <Filter>Engine\04.Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageModule.h">
+      <Filter>Engine\04.Object\UI\UI_Module</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathf.h">
+      <Filter>Engine\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TextModule.h">
+      <Filter>Engine\04.Object\UI\UI_Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CCommand.h">
+      <Filter>Engine\07.Component\03.Command</Filter>
+    </ClInclude>
+    <ClInclude Include="CStMachine.h">
+      <Filter>Engine\08.Module\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="CState.h">
+      <Filter>Engine\08.Module\State</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseClick.h">
+      <Filter>Engine\07.Component\03.Command\01.Test</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>Engine\04.Object\Objects\01.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Engine\04.Object\Objects\01.Default</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Default</Filter>
+    </Image>
+    <Image Include="WinGameEngine.ico">
+      <Filter>Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Engine\02.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ResMgr.cpp">
+      <Filter>Engine\03.Manager\ResMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Res.cpp">
+      <Filter>Engine\06.Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Engine\06.Resource\01.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>Engine\01.Header</Filter>
+    </ClCompile>
+    <ClCompile Include="PathMgr.cpp">
+      <Filter>Engine\03.Manager\PathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>Engine\03.Manager\TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>Engine\03.Manager\KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Engine\03.Manager\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Engine\04.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Engine\07.Component</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectGDI.cpp">
+      <Filter>Engine\08.Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Engine\07.Component\01.Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Engine\07.Component\01.Animator\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>Engine\03.Manager\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="EventMgr.cpp">
+      <Filter>Engine\03.Manager\EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMgr.cpp">
+      <Filter>Engine\03.Manager\UIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Engine\04.Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>Engine\03.Manager\CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Engine\05.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Test.cpp">
+      <Filter>Engine\05.Scene\SceneList</Filter>
+    </ClCompile>
+    <ClCompile Include="CRectangle.cpp">
+      <Filter>Engine\04.Object\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="DivUI.cpp">
+      <Filter>Engine\04.Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageModule.cpp">
+      <Filter>Engine\04.Object\UI\UI_Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathf.cpp">
+      <Filter>Engine\01.Header</Filter>
+    </ClCompile>
+    <ClCompile Include="TextModule.cpp">
+      <Filter>Engine\04.Object\UI\UI_Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CCommand.cpp">
+      <Filter>Engine\07.Component\03.Command</Filter>
+    </ClCompile>
+    <ClCompile Include="CStMachine.cpp">
+      <Filter>Engine\08.Module\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="CState.cpp">
+      <Filter>Engine\08.Module\State</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseClick.cpp">
+      <Filter>Engine\07.Component\03.Command\01.Test</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>Engine\04.Object\Objects\01.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Engine\04.Object\Objects\01.Default</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WinGameEngine.rc">
+      <Filter>Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
